@@ -1,6 +1,25 @@
-frontend-nanodegree-arcade-game
-===============================
+# Frontend-nanodegree-arcade-game(Frogger-Like-Game-Project)
+## Docs
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+The repository contains css, images, and js folders, as well as an index.html and a README.md file. Once you have downloaded the files we have provided, you will have to edit app.js to build the game.
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+* The css folder contains a style.css file which you do not need to edit
+* The images folder contains the png image files, which are used when displaying the game. The images for the player and enemy     character are going to be loaded from this folder.
+* The js folder also contains the app engine needed to run the game and a resources.js file. You do not need to edit these files.
+* index.html - opening index.html should load the game
+* README.md should contain instructions on how to load and play the game.
+
+
+Inside the app.js file, implementation of the Player and the Enemy classes, using Object-Oriented JavaScript:
+
+The Enemy function, which initiates the Enemy by:
+* Loading the image by setting this.sprite to the appropriate image in the image folder (already provided)
+* Setting the Enemy initial location.
+* Setting the Enemy speed.
+ 
+ The update method for the Enemy:
+
+* Updates the Enemy location.
+
+## How to play
+Just download this repo and open index.html file in your browser.
