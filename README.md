@@ -34,6 +34,8 @@ The Player function, which initiates the Player by:
 * Recall that the player cannot move off screen.
  * If the player reaches the water the game should be reset by moving the player back to the initial location.
 
+## About
+This game was implemented in javascript as a final project for  Object-Oriented JavaScript course at udacity.
 
 ## How to play
 Just download this repo and open index.html file in your browser.
