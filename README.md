@@ -16,10 +16,24 @@ The Enemy function, which initiates the Enemy by:
 * Loading the image by setting this.sprite to the appropriate image in the image folder (already provided)
 * Setting the Enemy initial location.
 * Setting the Enemy speed.
- 
- The update method for the Enemy:
+
+The update method for the Enemy:
 
 * Updates the Enemy location.
+
+The Player function, which initiates the Player by:
+
+* Loading the image by setting this.sprite to the appropriate image in the image folder (use the code from the Enemy function as an example on how to do that)
+* Setting the Player initial location 
+
+* The update method for the Player (can be similar to the one for the Enemy)
+* The render method for the Player (use the code from the render method for the Enemy)
+* The handleInput method, which should receive user input, allowedKeys (the key which was pressed) and move the player according to that input. In particular:
+
+* Left key should move the player to the left, right key to the right, up should move the player up and down should move the player down.
+* Recall that the player cannot move off screen.
+ * If the player reaches the water the game should be reset by moving the player back to the initial location.
+
 
 ## How to play
 Just download this repo and open index.html file in your browser.
