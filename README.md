@@ -1,7 +1,7 @@
 # Frontend-nanodegree-arcade-game(Frogger-Like-Game-Project)
 ## Docs
 
-The repository contains css, images, and js folders, as well as an index.html and a README.md file. Once you have downloaded the files we have provided, you will have to edit app.js to build the game.
+The repository contains css, images, and js folders, as well as an index.html and a README.md file.
 
 * The css folder contains a style.css file which you do not need to edit
 * The images folder contains the png image files, which are used when displaying the game. The images for the player and enemy     character are going to be loaded from this folder.
